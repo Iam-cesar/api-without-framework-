@@ -8,6 +8,8 @@
 
 ### Sinon - para mocks e stubs
 
+### Supertest - para testes de requisição
+
 ### Mocha - como test runner
 
 🖥️ [Cesar Augusto](https://www.linkedin.com/in/c%C3%A9sar-augusto-1459ab1b2/) 🖥️
