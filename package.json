@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node ./src/app.js",
-    "test": "npx mocha __tests__/**/*.spec.js -w --parallel",
+    "test": "npx mocha __tests__/**/*.spec.js --parallel",
+    "test:watch": "npx mocha __tests__/**/*.spec.js -w --parallel",
     "test:cov": "npx nyc npx mocha __tests__/**/*.spec.js --parallel",
     "dev": "nodemon ./src/app.js --ignore ./__tests__"
   },
