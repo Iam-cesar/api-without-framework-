@@ -1,0 +1,27 @@
+{
+  "name": "native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "npx mocha __tests__/**/*.spec.js -w --parallel",
+    "test:cov": "npx nyc npx mocha __tests__/**/*.spec.js --parallel",
+    "dev": "nodemon ./src/app.js --ignore ./__tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.2.2",
+    "sinon": "^13.0.1",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "reporter": [
+    "html",
+    "text"
+  ],
+  "statements": 100,
+  "functions": 100,
+  "lines": 100,
+  "branchs": 100,
+  "codeCoverage": true
+}
