@@ -1,5 +1,5 @@
 const WineService = require('../../src/services/WineService')
-const { deepStrictEqual, ok, throws } = require('assert')
+const { deepStrictEqual, ok } = require('assert')
 
 const DB_MOCK = '../../__tests__/mocks/dbMock.json' // sem o ../../ da erro
 const wineService = new WineService(DB_MOCK)

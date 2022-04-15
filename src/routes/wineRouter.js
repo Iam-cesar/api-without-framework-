@@ -1,6 +1,7 @@
 const WineService = require('../services/WineService')
 const filePath = '../database/dbWine.json'
 const wineService = new WineService(filePath)
+const Url = require('url')
 
 module.exports = {
   '/wine:get': async (request, response) => {
@@ -16,7 +17,7 @@ module.exports = {
     response.writeHead(200)
     return response.end('delete a wine')
   },
-  '/wine:update': (request, response) => {
+  '/wine:put': (request, response) => {
     response.writeHead(200)
     return response.end('update a wine')
   },
