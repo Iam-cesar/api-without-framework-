@@ -7,5 +7,8 @@
   "functions": 100,
   "lines": 100,
   "branchs": 100,
-  "codeCoverage": true
+  "codeCoverage": true,
+  "exclude": [
+    "src/interfaces/**"
+  ]
 }
